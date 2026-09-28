@@ -1,0 +1,87 @@
+# Lesson 1
+// EXEC mode
+- enable 
+- ?
+// global configuration
+- configure terminal 
+
+___
+
+# Lesson 2
+
+- hostname name(branch-sw1)
+- end/exit
+
+___
+
+# Lesson 3
+
+// to verify the configuration. displays current configuration active in the device's volatile RAM. Any changes you just made will appear here)
+- show running-config/show run 
+
+// while in config mode(configure terminal) the command "show running-config/show run" doesn't work. Putting "DO" command in front of it makes it work. 
+- do show running-config 
+
+// each mode has its own command set, show lives in EXEC mode - from config mode you either exit back out or bring the command in with the 'do' prefix.
+
+___
+
+# Lesson 4
+
+// enter interface configuration mode on g0/1
+interface g0/1 
+
+// enter vlan 10 configuration mode
+vlan 10 
+
+___
+
+# Lesson 5
+
+tab completion
+
+// saves the configuration
+write(wr) memory
+
+// abbreviation and its pitfalls 
+sh st -> could mean anything -> sh startup-config (now it's unique, it resolves to show startup-config)
+                
+interface g0/1(int g0/1) -> up arrow to recall the last command and modified it to g0/2
+
+___ 
+
+# Lesson 6
+// shows which ports belong to which VLANs
+show vlan brief 
+
+configure terminal -> int g0/1(the port of the vlan)-> shutdown(no shutdown to turn it back on)
+
+___
+
+# Lesson 7
+// these commands create vlan 10 and vlan 20
+vlan 10
+vlan 20
+// to see that vlan 10 and 20 appear
+show vlan brief 
+// to remove vlan 10 and 20
+configure terminal -> no vlan 10 / no vlan 20
+// to see that vlan 10 and 20 don't appear
+show vlan brief
+
+___
+
+# Lesson 8
+// shows the status of all interfaces
+show interfaces status 
+// shows which interfaces are on
+show ip interface brief 
+
+___
+
+These lessons started with CISCO CLI. It was rather surprising because I thought it would naturally start with networking fundamentals. 
+I was caught off guard, but it seems to be going well. I can follow through and did made exercises without looking at the solutions. 
+I wouldn't be able to explain every single syntax if I were to be asked, but for now I understand the big picture. 
+I am going to stick to this path and see what happens. 
+
+
