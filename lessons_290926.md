@@ -19,7 +19,7 @@
   - All the messages that go throught the switches are referred to as frames.
   - Layer 2 = Switches & Frames
 
-  /// IP Addresses in layer 3 are referred to as packets, but in real life frames are also often referred to as packets. 
+  <!-- IP Addresses in layer 3 are referred to as packets, but in real life frames are also often referred to as packets. -->
 
 ### Wireless Access Points(WAPs)
   
