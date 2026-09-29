@@ -1,12 +1,13 @@
 # Lesson 1
 
 ```
-- enable 
-- ?
+enable 
+?
+configure terminal
 ```
-- global configuration
-- configure terminal 
-
+- Entering EXEC mode
+- Entering global configuration
+- ? for help
 
 # Lesson 2
 
