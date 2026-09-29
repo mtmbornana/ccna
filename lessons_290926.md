@@ -230,10 +230,10 @@ ssh admin@192.168.1.1
 
 ---
 
-Everything seems quite intuitive. 
-This is just the very beginning. I'm sure it's going to get a lot more complex. 
-I don't believe, however, that this exam is going to be as difficult as people say. 
-I need to work harder and deeper.
+Everything seems quite intuitive. <br>
+This is just the very beginning. I'm sure it's going to get a lot more complex. <br>
+I don't believe, however, that this exam is going to be as difficult as people say. <br>
+I need to work harder and deeper. <br>
 This isn't enough. 
 
   
