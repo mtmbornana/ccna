@@ -130,7 +130,7 @@ show ip interface brief
   
 ___
 
-These lessons started with CISCO CLI. It was rather surprising because I thought it would naturally start with networking fundamentals. 
-I was caught off guard, but it seems to be going well. I can follow through and did made exercises without looking at the solutions. 
-I wouldn't be able to explain every single syntax if I were to be asked, but for now I understand the big picture. 
-I am going to stick to this path and see what happens. 
+These lessons started with CISCO CLI. It was rather surprising because I thought it would naturally start with networking fundamentals. <br>
+I was caught off guard, but it seems to be going well. I can follow through and did made exercises without looking at the solutions. <br>
+I wouldn't be able to explain every single syntax if I were to be asked, but for now I understand the big picture. <br>
+I am going to stick to this path and see what happens. <br>
