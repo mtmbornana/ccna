@@ -8,7 +8,9 @@
 
 ### Hubs and Switches
 
-<img width="420" height="235" alt="image" src="https://github.com/user-attachments/assets/7e211119-4135-4411-9fb2-20572254f2c9" />
+<img width="289" height="215" alt="dumbhubs (2)" src="https://github.com/user-attachments/assets/66cdd5f6-fed5-4593-a0f8-ae924aa46b07" />
+<br><br>
+
   - Hubs are dumb. As shown in the above image.
   - Switches are so much smarter.
       - Switches are layer 2 device.
